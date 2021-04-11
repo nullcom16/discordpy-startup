@@ -4,7 +4,7 @@ from discord.ext import commands
 import subprocess
 import ffmpeg
 
-token=DISCORD_BOT_TOKEN
+token = os.environ['DISCORD_BOT_TOKEN']
 client = commands.Bot(command_prefix='.')
 voice_client = None
 @client.event
