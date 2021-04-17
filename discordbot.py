@@ -1,4 +1,4 @@
-from discord.ext import commandshttps://github.com/nullcom16/discordpy-startup/blob/master/discordbot.py
+from discord.ext import commands
 import os
 import traceback
 
